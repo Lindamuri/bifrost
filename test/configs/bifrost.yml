@@ -1,0 +1,19 @@
+
+Service:
+  Port: 12321
+  ChunkSize: 4194304
+  AuthServerAddr: "192.168.220.11:12320"
+  Infos:
+    -
+      name: "bifrost-test"
+      type: nginx
+      backupCycle: 1
+      backupSaveTime: 7
+      confPath: "F:/GO_Project/src/bifrost/test/config_test/nginx.conf"
+      verifyExecPath: "xxxxxxxxxxxx/nginx"
+RAConfig:
+  Host: "127.0.0.1"
+  Port: 9090
+LogConfig:
+  logDir: "./logs"
+  level: 6
